@@ -1,0 +1,46 @@
+### Get Call
+
+GET http://localhost:35567/odata/v4/my_cap/training
+
+### Get Call Single
+
+GET http://localhost:4004/odata/v4/my_cap/training/4c6af7c9-47a0-4230-8fcb-8cb2e17d993c
+
+### Create
+
+POST http://localhost:44245/odata/v4/my_cap/training
+Content-Type: application/json
+
+{
+  "name": "BTP",
+  "skill": "CAPM",
+  "trainer": "Dominik",
+  "location": "Virtual",
+  "room": "Zoom",
+  "trainee": null,
+  "duration": "5"
+}
+
+### PUT
+
+PUT http://localhost:4004/odata/v4/my_cap/training/cf94c2fd-04bb-40ac-8a5d-e24494bb9515
+Content-Type: application/json
+
+{  
+  "trainer": "Sharath TP",
+  "location": "Virtual" 
+}
+
+### PATCH
+
+PATCH http://localhost:4004/odata/v4/my_cap/training/cf94c2fd-04bb-40ac-8a5d-e24494bb9515
+Content-Type: application/json
+
+{  
+  "skill": "CAPM"
+ 
+}
+
+### Delete
+
+DELETE http://localhost:4004/odata/v4/my_cap/training/be82f842-0f50-4a30-8622-89f942f52e43
