@@ -8,13 +8,13 @@ GET http://localhost:4004/odata/v4/my_cap/training/4c6af7c9-47a0-4230-8fcb-8cb2e
 
 ### Create
 
-POST http://localhost:4004/odata/v4/my_cap/training
+POST http://localhost:45109/odata/v4/my_cap/training
 Content-Type: application/json
 
 {
   "name": "BTP",
   "skill": "CAPM",
-  "trainer": "Sheyna",
+  "trainer": "Alex",
   "location": "Virtual",
   "room": "Zoom",
   "trainee": null,
