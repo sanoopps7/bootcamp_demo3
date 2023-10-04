@@ -1,6 +1,6 @@
 ### Get Call
 
-GET http://localhost:35567/odata/v4/my_cap/training
+GET http://localhost:34477/odata/v4/my_cap/training
 
 ### Get Call Single
 
@@ -8,13 +8,13 @@ GET http://localhost:4004/odata/v4/my_cap/training/4c6af7c9-47a0-4230-8fcb-8cb2e
 
 ### Create
 
-POST http://localhost:44245/odata/v4/my_cap/training
+POST http://localhost:4004/odata/v4/my_cap/training
 Content-Type: application/json
 
 {
   "name": "BTP",
   "skill": "CAPM",
-  "trainer": "Dominik",
+  "trainer": "Sheyna",
   "location": "Virtual",
   "room": "Zoom",
   "trainee": null,

@@ -11,7 +11,7 @@ module.exports = cds.service.impl( async function() {
 
     this.before("CREATE","training",req => {
         console.log(req.data);
-        if(req.data.duration > "2"){
+        if(req.data.duration > "5"){
             req.reject(400,"Duration is more than 2 hours");
         }
     });
